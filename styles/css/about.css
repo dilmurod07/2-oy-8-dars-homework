@@ -1,0 +1,156 @@
+.parent {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(12, 100px);
+  grid-template-rows: repeat(9, 100px);
+  gap: 5px;
+}
+
+.a1 {
+  background-color: #C9316B;
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  grid-row: 1/3;
+  grid-column: 1/3;
+  border-radius: 15px;
+  color: white;
+}
+
+.a2 {
+  background-color: #CA319D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  grid-row: 1/5;
+  grid-column: 3/6;
+  border-radius: 30px;
+  color: white;
+}
+
+.a3 {
+  background-color: #ED6E62;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  font-size: 30px;
+  grid-row: 1/9;
+  color: white;
+  grid-column: 6/10;
+}
+
+.a4 {
+  background-color: #EFC437;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  color: white;
+  grid-row: 1/3;
+  grid-column: 10/12;
+}
+
+.a5 {
+  background-color: #538C45;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  grid-row: 3/5;
+  grid-column: 1/3;
+  color: white;
+}
+
+.a6 {
+  background-color: #267C87;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  grid-row: 2/5;
+  margin-top: 100px;
+  grid-column: 10/12;
+  color: white;
+}
+
+.a7 {
+  background-color: #799928;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  grid-row: 5/7;
+  grid-column: 1/3;
+  color: white;
+}
+
+.a8 {
+  background-color: #478755;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  grid-row: 5/7;
+  grid-column: 3/3;
+  color: white;
+}
+
+.a9 {
+  background-color: #30C9C2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row: 5/7;
+  grid-column: 4/6;
+  border-radius: 15px;
+  color: white;
+}
+
+.a10 {
+  background-color: greenyellow;
+  grid-row: 5/7;
+  grid-column: 10/12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 15px;
+}
+
+.a11 {
+  grid-row: 7/9;
+  grid-column: 1/6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 15px;
+  background-color: orchid;
+}
+
+.a12 {
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  display: flex;
+  border-radius: 15px;
+  grid-row: 7/9;
+  grid-column: 10/12;
+}
+
+.homework1 {
+  padding: 30px;
+  background-color: blue;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  margin-left: 425px;
+  margin-bottom: 450px;
+}/*# sourceMappingURL=about.css.map */
