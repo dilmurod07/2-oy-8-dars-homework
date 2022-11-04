@@ -1,8 +1,11 @@
 .parent {
+  width: 100%;
+  height: 100vh;
   max-width: 1200px;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(12, 100px);
-  grid-template-rows: repeat(9, 100px);
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(12, 1fr);
   gap: 5px;
 }
 
@@ -13,7 +16,7 @@
   justify-content: center;
   align-items: center;
   grid-row: 1/3;
-  grid-column: 1/3;
+  grid-column: 1/1;
   border-radius: 15px;
   color: white;
 }
@@ -24,8 +27,8 @@
   justify-content: center;
   align-items: center;
   font-size: 15px;
-  grid-row: 1/5;
-  grid-column: 3/6;
+  grid-row: 1/6;
+  grid-column: 2/2;
   border-radius: 30px;
   color: white;
 }
@@ -37,9 +40,9 @@
   align-items: center;
   border-radius: 15px;
   font-size: 30px;
-  grid-row: 1/9;
+  grid-column: 3/5;
+  grid-row: 1/12;
   color: white;
-  grid-column: 6/10;
 }
 
 .a4 {
@@ -50,7 +53,7 @@
   border-radius: 15px;
   color: white;
   grid-row: 1/3;
-  grid-column: 10/12;
+  grid-column: 5/6;
 }
 
 .a5 {
@@ -59,8 +62,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 15px;
-  grid-row: 3/5;
-  grid-column: 1/3;
+  grid-row: 3/6;
+  grid-column: 1/1;
   color: white;
 }
 
@@ -70,9 +73,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 15px;
-  grid-row: 2/5;
-  margin-top: 100px;
-  grid-column: 10/12;
+  grid-column: 5/6;
+  grid-row: 3/6;
   color: white;
 }
 
@@ -82,8 +84,8 @@
   align-items: center;
   justify-content: center;
   border-radius: 15px;
-  grid-row: 5/7;
-  grid-column: 1/3;
+  grid-row: 6/9;
+  grid-column: 1/1;
   color: white;
 }
 
@@ -93,8 +95,8 @@
   align-items: center;
   justify-content: center;
   border-radius: 15px;
-  grid-row: 5/7;
-  grid-column: 3/3;
+  grid-row: 6/7;
+  grid-column: 2/3;
   color: white;
 }
 
@@ -103,16 +105,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  grid-row: 5/7;
-  grid-column: 4/6;
+  grid-row: 7/9;
+  grid-column: 2/3;
   border-radius: 15px;
   color: white;
 }
 
 .a10 {
   background-color: greenyellow;
-  grid-row: 5/7;
-  grid-column: 10/12;
+  grid-row: 6/9;
+  grid-column: 5/6;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,8 +123,8 @@
 }
 
 .a11 {
-  grid-row: 7/9;
-  grid-column: 1/6;
+  grid-column: 1/3;
+  grid-row: 9/12;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -138,19 +140,21 @@
   color: white;
   display: flex;
   border-radius: 15px;
-  grid-row: 7/9;
-  grid-column: 10/12;
+  grid-row: 9/12;
+  grid-column: 5/6;
 }
 
 .homework1 {
-  padding: 30px;
+  padding: 200px;
   background-color: blue;
-  width: 150px;
-  height: 150px;
+  width: 350px;
+  height: 350px;
   border-radius: 20px;
-  font-size: 25px;
+  font-size: 60px;
   text-decoration: none;
   color: white;
-  margin-left: 425px;
-  margin-bottom: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1850px;
 }/*# sourceMappingURL=about.css.map */
